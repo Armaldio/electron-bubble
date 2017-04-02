@@ -2,4 +2,4 @@
 
 ## Add a bubble window like Facebook Messenger with Electron
 
-![]("preview.gif")
+![](./preview.gif)
