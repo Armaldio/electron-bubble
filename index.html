@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        html, body {
+            background: rgba(0, 0, 0, 0);
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #bubble {
+            width: 50px;
+            height: 50px;
+            background: #3c6eff;
+            border-radius: 50px;
+        }
+
+        #message {
+            width: 90%;
+            height: 80%;
+            background: white;
+            display: none;
+            border-radius: 10px;
+            border: 1px solid black;
+
+            /* Allow Drag */
+        }
+
+        #drag {
+            -webkit-app-region: drag;
+            color: white;
+        }
+
+        #close {
+            color: white;
+        }
+        <img src="../../AppData/Local/Temp/DY6gND0.png"/></style>
+</head>
+<body>
+<i id="drag" class="fa fa-arrows" aria-hidden="true"></i>
+<i id="close" class="fa fa-close" aria-hidden="true"></i>
+
+<img src="http://i.imgur.com/DY6gND0.png" id="bubble">
+<div id="message">
+    <div class="bubble me">Hello there!</div>
+    <div class="bubble you">Hi. I'm an expandeable chat box with box shadow. How are you? I expand horizontally and vertically, as you can see here.</div>
+    <div class="bubble me">Awesome.</div>
+</div>
+</body>
+<script src="./renderer.js"></script>
+</html>
