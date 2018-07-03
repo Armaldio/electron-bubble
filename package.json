@@ -18,7 +18,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "@types/jquery": "^2.0.41",
-    "electron": "~1.6.2"
+    "electron": "^2.0.3"
   },
   "dependencies": {
     "@types/electron": "^1.4.35",
